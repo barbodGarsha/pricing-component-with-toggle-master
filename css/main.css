@@ -27,6 +27,10 @@ li {
   padding: 0;
 }
 
+.testing--display-none {
+  display: none;
+}
+
 .title {
   display: none;
 }
