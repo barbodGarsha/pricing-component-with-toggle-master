@@ -10,11 +10,11 @@ $c-dark-grayish-blue: hsl(232, 13%, 33%);
 
 // Resets ===============================================
 body {
-    background-color: $c-very-dark-blue;
+    background-color: $c-very-light-grayish-blue;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 a, li, h1, h2, p {
     text-decoration: none;
@@ -37,3 +37,42 @@ li {
 
 
 // Main ===============================================
+
+.title {
+    display: none;
+}
+
+.options {
+    display: none;
+    .options__txt {
+
+    }
+}
+
+.toggle-btn {
+    .toggle-btn__design {
+
+    }
+}
+
+.card {
+    .card__title {
+
+    }
+
+    .card__price {
+
+    }
+
+    .card__txt {
+
+    }
+
+    .card__item--has-divider {
+
+    }
+}
+
+.btn {
+
+}
