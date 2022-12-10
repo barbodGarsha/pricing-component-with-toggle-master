@@ -36,19 +36,6 @@ li {
 }
 
 
-// TESTING ============================================
-
-.testing__container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-
-.testing--display-none {
-    display: none;
-}
 
 // Main ===============================================
 
@@ -70,23 +57,75 @@ li {
 }
 
 .card {
-    .card__title {
+    background-color: white;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.7rem;
+
+    border-radius: 9px;
+    .card__title {
+        color: $c-grayish-blue;
+
+        font-family: 'Montserrat';
+        font-size: .6rem;
+
+        margin-bottom: .6rem;
     }
 
     .card__price {
+        display: flex;
+        
+        color: $c-dark-grayish-blue;
 
+        align-items: center;
+        font-family: 'Montserrat';
+        font-size: 2.1rem;
+
+        margin-bottom: .75rem;
+        
+    }
+    .card__price--small-font-size {
+        font-size: 1.2rem;
+        margin-right: .2rem;
     }
 
     .card__txt {
+        color: $c-grayish-blue;
 
+        font-family: 'Montserrat';
+        font-size: .45rem;
+
+        padding: .55rem;
+    }
+    .card__item__divider:last-of-type {
+        margin-bottom: 1rem;
     }
 
-    .card__item--has-divider {
-
+    .card__item__divider {
+        width: 100%;
+        height: 1px;
+        background-color: lighten($c-light-grayish-blue, 18%);
     }
 }
 
 .btn {
 
+}
+
+
+
+// TESTING ============================================
+
+.testing__container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.testing--display-none {
+    display: none;
 }
