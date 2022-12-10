@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+$c-gradient: linear-gradient(to right, hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+
+
+$c-very-light-grayish-blue: hsl(240, 78%, 98%);
+$c-light-grayish-blue: hsl(234, 14%, 74%);
+$c-grayish-blue: hsl(233, 13%, 49%);
+$c-dark-grayish-blue: hsl(232, 13%, 33%);
+
+// Resets ===============================================
+body {
+    background-color: $c-very-dark-blue;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+a, li, h1, h2, p {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+}
+
+ul {
+    display: inline;  
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+
+// Main ===============================================
