@@ -111,6 +111,22 @@ li {
 }
 
 .btn {
+    cursor: pointer;
+    color: white;
+    background-image: $c-gradient;
+    width: 100%;
+
+    font-family: 'Montserrat';
+    font-size: .45rem;
+
+    letter-spacing: .05rem;
+
+    padding: .45rem;
+
+    border: solid 1px $c-light-grayish-blue;
+    border-radius: 5px;
+
+    text-transform: uppercase;
 
 }
 
