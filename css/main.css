@@ -37,6 +37,13 @@ li {
 
 .card {
   background-color: white;
+  width: 9rem;
+  padding: 1rem 1rem;
+  border-radius: 9px;
+}
+
+.card .card__container {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,8 +54,6 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1.7rem;
-  border-radius: 9px;
 }
 
 .card .card__title {
@@ -80,11 +85,11 @@ li {
   color: #6d708d;
   font-family: 'Montserrat';
   font-size: .45rem;
-  padding: .55rem;
+  padding: .51rem;
 }
 
 .card .card__item__divider:last-of-type {
-  margin-bottom: 1rem;
+  margin-bottom: .8rem;
 }
 
 .card .card__item__divider {
@@ -100,7 +105,7 @@ li {
   background-image: linear-gradient(to right, #a3a8f0, #696fdd);
   width: 100%;
   font-family: 'Montserrat';
-  font-size: .45rem;
+  font-size: .40rem;
   letter-spacing: .05rem;
   padding: .45rem;
   border: solid 1px #b3b5c6;
