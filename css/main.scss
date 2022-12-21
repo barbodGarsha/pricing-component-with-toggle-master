@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 $c-gradient: linear-gradient(to right, hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+$c-gradient--vertical: linear-gradient(hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
 
 
 $c-very-light-grayish-blue: hsl(240, 78%, 98%);
@@ -113,7 +114,22 @@ li {
         width: 100%;
         height: 1px;
         background-color: lighten($c-light-grayish-blue, 18%);
+        
     }
+}
+.card--color-diff {
+    background-image: $c-gradient--vertical;
+
+    .card__title, .card__price, .card__txt {
+        color: white;
+    }
+    .card__item__divider {
+        background-color: lighten($c-light-grayish-blue, 1%);
+        
+    }
+}
+.card--center-card {
+    padding: 1.8rem 1rem;
 }
 
 .btn {
@@ -133,7 +149,12 @@ li {
     border-radius: 5px;
 
     text-transform: uppercase;
-
+}
+.btn--color-diff {
+    background-image: none;
+    background-color: white;
+    color: hsl(236, 52%, 61%);
+    border-color: white;
 }
 
 

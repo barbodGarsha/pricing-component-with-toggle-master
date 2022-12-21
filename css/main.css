@@ -98,6 +98,23 @@ li {
   background-color: #e8e8ed;
 }
 
+.card--color-diff {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(#a3a8f0, #696fdd);
+}
+
+.card--color-diff .card__title, .card--color-diff .card__price, .card--color-diff .card__txt {
+  color: white;
+}
+
+.card--color-diff .card__item__divider {
+  background-color: #b6b8c8;
+}
+
+.card--center-card {
+  padding: 1.8rem 1rem;
+}
+
 .btn {
   cursor: pointer;
   color: white;
@@ -111,6 +128,13 @@ li {
   border: solid 1px #b3b5c6;
   border-radius: 5px;
   text-transform: uppercase;
+}
+
+.btn--color-diff {
+  background-image: none;
+  background-color: white;
+  color: #686fcf;
+  border-color: white;
 }
 
 .testing__container {
