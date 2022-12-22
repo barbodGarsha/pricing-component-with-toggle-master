@@ -40,11 +40,63 @@ li {
 }
 
 .title {
-  display: none;
+  color: #6d708d;
+  font-family: 'Montserrat';
+  margin-bottom: 2rem;
 }
 
 .options {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.options .options__txt {
+  font-family: 'Montserrat';
+  color: #b3b5c6;
+}
+
+.options .options__txt--margin-right {
+  margin-right: 1.5rem;
+}
+
+.options .options__txt--margin-left {
+  margin-left: 1.5rem;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  background-image: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(to right, #a3a8f0, #696fdd);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 1.9rem;
+  width: 3.2rem;
+  border-radius: 1rem / 50%;
+}
+
+.toggle-btn .toggle-btn__design {
+  background-color: white;
+  justify-self: flex-end;
+  width: 1.45rem;
+  height: 1.45rem;
+  border-radius: 50%;
+  margin-right: .25rem;
+  margin-left: .25rem;
 }
 
 .card {
@@ -150,7 +202,6 @@ li {
 }
 
 .testing__container {
-  width: 100vw;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;

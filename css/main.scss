@@ -47,19 +47,52 @@ li {
 }
 
 .title {
-    display: none;
+    color: $c-grayish-blue;
+    font-family: 'Montserrat';
+    
+    margin-bottom: 2rem;
 }
 
 .options {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .options__txt {
-
+        font-family: 'Montserrat';
+        color: $c-light-grayish-blue;
     }
+    .options__txt--margin-right {
+        margin-right: 1.5rem;
+    }
+    .options__txt--margin-left {
+        margin-left: 1.5rem;
+    }
+
+    margin-bottom: 2rem;
 }
 
 .toggle-btn {
-    .toggle-btn__design {
+    cursor: pointer;
+    background-image: $c-gradient;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 1.9rem;
+    width: 3.2rem;
 
+    border-radius: 1rem / 50%;
+    .toggle-btn__design {
+        background-color: white;
+
+        justify-self: flex-end;
+
+        width: 1.45rem;
+        height: 1.45rem;
+        border-radius: 50%;
+
+        margin-right: .25rem;
+        margin-left: .25rem;
     }
 }
 
@@ -168,7 +201,6 @@ li {
 // TESTING ============================================
 
 .testing__container {
-    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
