@@ -93,6 +93,13 @@ li {
 
         margin-right: .25rem;
         margin-left: .25rem;
+
+        transition: transform 300ms ease-out;
+    }
+}
+.toggle-btn--off {
+    .toggle-btn__design {
+        transform: translateX(-1.30rem);
     }
 }
 .toggle-btn:active {
