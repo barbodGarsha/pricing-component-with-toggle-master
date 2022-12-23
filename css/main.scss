@@ -95,6 +95,9 @@ li {
         margin-left: .25rem;
     }
 }
+.toggle-btn:active {
+    opacity: .5;
+}
 
 .card {
     background-color: white;
