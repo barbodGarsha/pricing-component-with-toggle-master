@@ -198,11 +198,23 @@ li {
   text-transform: uppercase;
 }
 
+.btn:active {
+  background-image: none;
+  background-color: transparent;
+  color: #686fcf;
+}
+
 .btn--color-diff {
   background-image: none;
   background-color: white;
   color: #686fcf;
   border-color: white;
+}
+
+.btn--color-diff:active {
+  background-image: none;
+  background-color: transparent;
+  color: white;
 }
 
 .testing__container {

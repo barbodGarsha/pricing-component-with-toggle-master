@@ -192,11 +192,21 @@ li {
 
     text-transform: uppercase;
 }
+.btn:active {
+    background-image: none;
+    background-color: transparent;
+    color: hsl(236, 52%, 61%);
+}
 .btn--color-diff {
     background-image: none;
     background-color: white;
     color: hsl(236, 52%, 61%);
     border-color: white;
+}
+.btn--color-diff:active {
+    background-image: none;
+    background-color: transparent;
+    color: white;
 }
 
 
