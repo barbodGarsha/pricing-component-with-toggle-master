@@ -27,6 +27,20 @@ li {
   padding: 0;
 }
 
+.design-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -99;
+}
+
+.design-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -99;
+}
+
 .card-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,6 +56,7 @@ li {
 .title {
   color: #6d708d;
   font-family: 'Montserrat';
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -226,8 +241,37 @@ li {
   color: white;
 }
 
+@media screen and (max-width: 1100px) {
+  .design-top {
+    position: absolute;
+    top: 0;
+    right: -60%;
+    z-index: -99;
+  }
+  .design-bottom {
+    display: none;
+  }
+  .card-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .title {
+    margin-top: 2rem;
+  }
+  .card {
+    max-width: 70vw;
+    margin-bottom: 2rem;
+  }
+  .card--center-card {
+    padding: 2rem 2rem;
+  }
+}
+
 .testing__container {
-  height: 100vh;
+  position: relative;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
