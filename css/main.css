@@ -70,7 +70,7 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4.2rem;
 }
 
 .options .options__txt {
@@ -204,7 +204,7 @@ li {
 }
 
 .card--center-card {
-  padding: 3.6rem 2rem;
+  padding: 3.3rem 2rem;
 }
 
 .btn {
