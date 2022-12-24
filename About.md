@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link](https://github.com/barbodGarsha/fylo-data-storage-component-master)
-- Live Site URL: [Link](https://barbodgarsha.github.io/fylo-data-storage-component-master/)
+- Solution URL: [Link](https://github.com/barbodGarsha/pricing-component-with-toggle-master)
+- Live Site URL: [Link](https://barbodgarsha.github.io/pricing-component-with-toggle-master/)
 
 ## My process
 
